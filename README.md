@@ -7,6 +7,7 @@ Apesar de ser possível habilitar este recurso através do uso de bibliotecas, o
 O "SSL Pinning" é utilizado para melhorar a segurança dos serviços que confiam em certificados SSL. Ele permite especificar uma identidade na aplicação adicionando uma camada de segurança na comunicação com o servidor, evitando ataques como o "(MITM )Man in the middle"
 
 # Configuração
+
 **1 - EXTRAIR CHAVE PÚBLICA DO CERTIFICADO**
 O primeiro passo é extrair a chave pública a partir do certificado, isto pode ser feito de duas formas:
 
